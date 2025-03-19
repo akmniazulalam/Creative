@@ -239,23 +239,11 @@
   .sticky {
     position: sticky;
   }
-  .inset-0 {
-    inset: calc(var(--spacing) * 0);
-  }
-  .top-0 {
-    top: calc(var(--spacing) * 0);
-  }
   .bottom-5 {
     bottom: calc(var(--spacing) * 5);
   }
   .bottom-8 {
     bottom: calc(var(--spacing) * 8);
-  }
-  .left-0 {
-    left: calc(var(--spacing) * 0);
-  }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
   }
   .left-1\/2 {
     left: calc(1/2 * 100%);
@@ -461,9 +449,6 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
-  .h-full {
-    height: 100%;
-  }
   .h-screen {
     height: 100vh;
   }
@@ -476,9 +461,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -488,6 +470,9 @@
   .w-\[44\%\] {
     width: 44%;
   }
+  .w-\[46\%\] {
+    width: 46%;
+  }
   .w-\[230px\] {
     width: 230px;
   }
@@ -496,9 +481,6 @@
   }
   .w-\[542px\] {
     width: 542px;
-  }
-  .w-full {
-    width: 100%;
   }
   .w-screen {
     width: 100vw;
@@ -595,10 +577,6 @@
   .translate-full {
     --tw-translate-x: 100%;
     --tw-translate-y: 100%;
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .-translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-x-1\/2 {
@@ -1334,8 +1312,11 @@
   .px-12 {
     padding-inline: calc(var(--spacing) * 12);
   }
-  .py-3 {
-    padding-block: calc(var(--spacing) * 3);
+  .px-\[315px\] {
+    padding-inline: 315px;
+  }
+  .px-\[365px\] {
+    padding-inline: 365px;
   }
   .py-3\.5 {
     padding-block: calc(var(--spacing) * 3.5);
@@ -1381,9 +1362,6 @@
   }
   .pb-\[100px\] {
     padding-bottom: 100px;
-  }
-  .pl-1 {
-    padding-left: calc(var(--spacing) * 1);
   }
   .pl-1\.5 {
     padding-left: calc(var(--spacing) * 1.5);
